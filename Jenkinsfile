@@ -11,6 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Build the application (e.g., npm / Maven)'
+                echo 'new commit'
             }
         }
 
